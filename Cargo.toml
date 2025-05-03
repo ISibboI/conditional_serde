@@ -1,6 +1,8 @@
 [package]
 name = "conditional_serde"
 description = "Depend on serde if the serde feature is activated"
+authors = ["Sebastian Schmidt <isibboi@gmail.com>"]
+license = "BSD-2-Clause"
 repository = "https://github.com/ISibboI/conditional_serde"
 version = "1.0.0"
 edition = "2024"
