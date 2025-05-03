@@ -1,0 +1,13 @@
+[package]
+name = "conditional_serde"
+description = "Depend on serde if the serde feature is activated"
+repository = "https://github.com/ISibboI/conditional_serde"
+version = "1.0.0"
+edition = "2024"
+
+[features]
+serde = ["dep:serde"]
+autotrait = []
+
+[dependencies]
+serde = { version = "1", features = ["derive"], optional = true }
